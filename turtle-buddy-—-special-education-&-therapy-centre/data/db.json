@@ -1,0 +1,640 @@
+{
+  "settings": {
+    "theme": {
+      "primaryColor": "#0284c7",
+      "secondaryColor": "#f97316",
+      "accentColor": "#10b981",
+      "backgroundColor": "#f8fafc",
+      "headingColor": "#0f172a",
+      "bodyTextColor": "#334155",
+      "buttonColor": "#0284c7",
+      "buttonTextColor": "#ffffff",
+      "navBgColor": "#ffffff",
+      "navTextColor": "#1e293b",
+      "borderRadius": "16px",
+      "fontFamily": "Plus Jakarta Sans"
+    },
+    "general": {
+      "siteName": "Turtle Buddy",
+      "tagLine": "Child Development & Special Education Centre",
+      "logoUrl": "",
+      "phone": "+1 (800) 489-3221",
+      "email": "care@turtlebuddycentre.org",
+      "address": "840 Greenfield Meadow Blvd, Suite 210, Springdale",
+      "openingHours": "Mon - Fri: 8:00 AM - 6:00 PM | Sat: 9:00 AM - 2:00 PM",
+      "emergencyNotice": "Admissions and Comprehensive Evaluations for Term 2026-2027 are now open. Prior appointment required.",
+      "socialLinks": {
+        "facebook": "https://facebook.com/turtlebuddy",
+        "instagram": "https://instagram.com/turtlebuddycentre",
+        "linkedin": "https://linkedin.com/company/turtlebuddy",
+        "youtube": "https://youtube.com/@turtlebuddycentre"
+      },
+      "mapUrl": "https://maps.google.com/?q=840+Greenfield+Meadow+Blvd+Springdale"
+    },
+    "hero": {
+      "welcomeBadge": "WELCOME TO TURTLE BUDDY",
+      "mainHeading": "Every Child Deserves a Chance to Grow",
+      "supportingText": "At Turtle Buddy, we empower children on the autism spectrum and with diverse developmental milestones through compassionate, evidence-based therapy, individualized learning plans, and warm family partnerships.",
+      "primaryButtonText": "Explore Our Services",
+      "primaryButtonLink": "/services",
+      "secondaryButtonText": "Book an Assessment",
+      "secondaryButtonLink": "/enrol",
+      "heroImage": "/src/assets/images/hero_child_therapy_1792054963772.jpg",
+      "floatingBadgeTitle": "Growing Together",
+      "floatingBadgeSubtitle": "Personalized milestones & compassionate care"
+    },
+    "stats": [
+      {
+        "id": "stat-1",
+        "value": "12+",
+        "label": "Years of Experience",
+        "note": "Continuous specialized care"
+      },
+      {
+        "id": "stat-2",
+        "value": "850+",
+        "label": "Children Supported",
+        "note": "Across developmental milestones"
+      },
+      {
+        "id": "stat-3",
+        "value": "32+",
+        "label": "Qualified Professionals",
+        "note": "BCBA, CCC-SLP & OTR/L certified"
+      },
+      {
+        "id": "stat-4",
+        "value": "45,000+",
+        "label": "Therapy Sessions Completed",
+        "note": "Gentle, evidence-informed hours"
+      }
+    ],
+    "about": {
+      "title": "About Turtle Buddy",
+      "subtitle": "Nurturing Potential with Science, Patience, and Heart",
+      "mission": "To unlock every child’s innate potential through evidence-based, compassionate behavioral, communication, and occupational interventions within a sensory-supportive and joyful environment.",
+      "vision": "A world where neurodiverse children are embraced with profound understanding, given the highest standard of individualized clinical care, and empowered to lead fulfilling, independent lives.",
+      "values": [
+        {
+          "title": "Child-Centered Empathy",
+          "description": "Every session respects the child’s sensory comfort, interests, and emotional readiness."
+        },
+        {
+          "title": "Evidence-Based Practice",
+          "description": "Interventions rooted in applied behavior analysis, speech pathology, and sensory integration research."
+        },
+        {
+          "title": "Family Empowerment",
+          "description": "Parents and siblings are vital partners. We provide ongoing training and collaborative home toolkits."
+        },
+        {
+          "title": "Sensory-Safe Facilities",
+          "description": "Purpose-built sensory gyms, quiet rooms, and adaptive learning stations tailored to neurodiversity."
+        }
+      ],
+      "photo": "/src/assets/images/aba_therapy_session_1792054964703.jpg",
+      "story": "Turtle Buddy was established by a multidisciplinary team of developmental pediatricians, board-certified behavior analysts, speech therapists, and pediatric occupational therapists. Recognizing that no two neurodiverse children share the same developmental path, our centre creates an individualized, stress-free haven where children with Autism Spectrum Disorder (ASD), ADHD, global developmental delays, and speech challenges can discover their strengths, build practical life skills, and grow with confidence."
+    },
+    "whyChooseUs": [
+      {
+        "id": "wcu-1",
+        "title": "Individualized Developmental Plans",
+        "description": "Comprehensive baseline assessments ensure goals align directly with your child’s unique cognitive, motor, and communicative capabilities."
+      },
+      {
+        "id": "wcu-2",
+        "title": "Multidisciplinary Collaboration",
+        "description": "Our BCBAs, speech pathologists, and occupational therapists collaborate daily to provide a harmonized therapy plan without conflicting techniques."
+      },
+      {
+        "id": "wcu-3",
+        "title": "Family-Centred Partnership",
+        "description": "We demystify therapy with transparent weekly progress data, video highlights, and parent coaching to carry over breakthroughs into your home."
+      },
+      {
+        "id": "wcu-4",
+        "title": "Sensory-Enriched Safe Spaces",
+        "description": "Specially engineered environments with dimmable natural lighting, acoustic damping, and tactile gym equipment to prevent sensory overload."
+      },
+      {
+        "id": "wcu-5",
+        "title": "Evidence-Based Early Intervention",
+        "description": "Scientific protocols proven to accelerate functional communication, fine motor coordination, emotional regulation, and peer social play."
+      },
+      {
+        "id": "wcu-6",
+        "title": "School Transition Readiness",
+        "description": "Bridge programs designed to help children adjust to kindergarten and elementary classrooms with confidence and self-advocacy skills."
+      }
+    ],
+    "footer": {
+      "copyright": "© 2026 Turtle Buddy Child Development & Therapy Centre. All rights reserved.",
+      "disclaimer": "Turtle Buddy provides developmental assessments, special education interventions, and allied pediatric therapies. For urgent medical emergencies, please consult your primary pediatrician."
+    }
+  },
+  "services": [
+    {
+      "id": "srv-1",
+      "slug": "aba-therapy",
+      "title": "Applied Behaviour Analysis (ABA) Therapy",
+      "shortDescription": "Scientifically validated behavioral interventions tailored to promote communication, social engagement, and positive adaptive behaviors.",
+      "fullDescription": "Applied Behaviour Analysis (ABA) is a gold-standard, evidence-based therapy that focuses on improving specific behaviors such as communication, social interactions, reading, and academics, as well as adaptive learning skills like fine motor dexterity, hygiene, and domestic skills. At Turtle Buddy, our ABA programs are child-led, gentle, and positive-reinforcement focused.",
+      "image": "/src/assets/images/aba_therapy_session_1792054964703.jpg",
+      "iconName": "BrainCircuit",
+      "benefits": [
+        "Increases functional communication and verbal requests",
+        "Promotes positive replacement behaviors for frustration or meltdowns",
+        "Enhances sustained attention, turn-taking, and cooperative play",
+        "Encourages personal independence in daily routines (dressing, washing, feeding)"
+      ],
+      "whoIsItFor": [
+        "Children diagnosed with Autism Spectrum Disorder (ASD)",
+        "Children exhibiting significant communication and behavioral delays",
+        "Toddlers and young children needing intensive early behavioral intervention"
+      ],
+      "approach": [
+        "Comprehensive functional behavior assessment by a Board Certified Behavior Analyst (BCBA)",
+        "Individualized treatment plan with measurable skill milestones",
+        "Play-based Discrete Trial Training (DTT) and Natural Environment Training (NET)",
+        "Daily quantitative data collection and parent debrief sessions"
+      ],
+      "published": true,
+      "order": 1
+    },
+    {
+      "id": "srv-2",
+      "slug": "speech-language-therapy",
+      "title": "Speech and Language Therapy (SLT)",
+      "shortDescription": "Personalized therapy to develop articulate verbal speech, receptive and expressive language, and alternative augmentative communication (AAC).",
+      "fullDescription": "Our Speech and Language Therapy program helps children overcome challenges with articulation, understanding spoken words, expressive communication, nonverbal gestures, and conversational fluency. We incorporate play, rhythm, visual communication systems, and high-tech AAC devices to ensure every child finds their voice.",
+      "image": "/src/assets/images/speech_therapy_child_1792054965416.jpg",
+      "iconName": "MessageSquareHeart",
+      "benefits": [
+        "Strengthens vocal clarity and articulation of speech sounds",
+        "Expands vocabulary, sentence construction, and comprehension",
+        "Introduces Augmentative and Alternative Communication (AAC) where needed",
+        "Supports social pragmatics like conversational pacing and eye contact"
+      ],
+      "whoIsItFor": [
+        "Children with non-verbal or minimally verbal presentation",
+        "Children with speech sound disorders, apraxia, or stuttering",
+        "Children struggling to understand instructions or express wants and feelings"
+      ],
+      "approach": [
+        "Standardized speech and language evaluation by licensed CCC-SLP therapists",
+        "Interactive games, visual prompt cards, mirror feedback, and oral-motor exercises",
+        "Family coaching on natural language reinforcement during daily home routines"
+      ],
+      "published": true,
+      "order": 2
+    },
+    {
+      "id": "srv-3",
+      "slug": "occupational-therapy",
+      "title": "Occupational Therapy (OT) & Sensory Integration",
+      "shortDescription": "Specialized motor, sensory processing, and self-regulation therapies enabling children to navigate everyday activities with autonomy.",
+      "fullDescription": "Pediatric Occupational Therapy addresses a child’s ability to participate successfully in the “occupations” of childhood: play, self-care, and learning. Our specialized sensory gym offers vestibular swings, tactile textures, and obstacle courses that help children organize sensory inputs and develop fine and gross motor mastery.",
+      "image": "/src/assets/images/sensory_occupational_therapy_1792054965310.jpg",
+      "iconName": "Activity",
+      "benefits": [
+        "Improves sensory processing and helps reduce sensory-seeking or sensory-avoidant distress",
+        "Develops fine motor skills for handwriting, scissors use, and tool manipulation",
+        "Enhances gross motor balance, bilateral coordination, and spatial awareness",
+        "Fosters self-regulation strategies to handle overwhelming environments"
+      ],
+      "whoIsItFor": [
+        "Children with Sensory Processing Sensitivity or dysfunction",
+        "Children with fine motor delays, poor pencil grip, or coordination challenges",
+        "Children experiencing difficulties with transitions, textures, or loud noises"
+      ],
+      "approach": [
+        "Sensory profile evaluation and motor assessment by certified OTR/L professionals",
+        "Sensory diet creation integrating swings, tactile bins, and deep pressure therapy",
+        "Task breakdown and adaptive tools to promote dressing, eating, and writing skills"
+      ],
+      "published": true,
+      "order": 3
+    },
+    {
+      "id": "srv-4",
+      "slug": "child-development-assessment",
+      "title": "Child Development & Diagnostic Assessment",
+      "shortDescription": "Rigorous multidisciplinary developmental screenings to identify milestones, strengths, and areas requiring early clinical intervention.",
+      "fullDescription": "Early identification is pivotal to a child’s long-term trajectory. Our comprehensive developmental evaluations evaluate cognitive development, speech and language, fine and gross motor skills, adaptive behavior, and socio-emotional milestones using internationally recognized diagnostic tools in a welcoming, stress-free format.",
+      "image": "/src/assets/images/hero_child_therapy_1792054963772.jpg",
+      "iconName": "ClipboardCheck",
+      "benefits": [
+        "Clear, objective clarity on your child’s developmental baseline",
+        "Early detection of neurodivergence, speech delays, or developmental lags",
+        "Actionable multidisciplinary roadmaps for school and therapy teams",
+        "Detailed diagnostic reporting accepted by school boards and medical providers"
+      ],
+      "whoIsItFor": [
+        "Parents noticing delays in milestones (talking, crawling, eye contact, pointing)",
+        "Pediatricians requesting multidisciplinary developmental evaluation",
+        "Families seeking second opinions or baseline re-evaluations for school placement"
+      ],
+      "approach": [
+        "Parent intake interview and developmental history analysis",
+        "Observational play-based assessment sessions with behavioral and speech clinicians",
+        "In-depth review meeting with parents explaining results and specific recommendations"
+      ],
+      "published": true,
+      "order": 4
+    },
+    {
+      "id": "srv-5",
+      "slug": "parent-counselling",
+      "title": "Parent Counselling & Family Guidance",
+      "shortDescription": "Empathetic psychological guidance, emotional support, and behavioral strategies empowering parents and siblings on the neurodivergent journey.",
+      "fullDescription": "Navigating a child’s developmental diagnosis can be emotionally demanding. Our licensed family psychologists provide dedicated counselling to help parents process emotions, manage stress, build resilient family dynamics, and adopt cohesive positive-parenting techniques tailored to neurodivergent children.",
+      "image": "/src/assets/images/aba_therapy_session_1792054964703.jpg",
+      "iconName": "HeartHandshake",
+      "benefits": [
+        "Provides a safe, confidential space for parents to discuss anxiety and grief",
+        "Equips caregivers with positive de-escalation strategies for tantrums and meltdowns",
+        "Helps siblings understand and build positive bonds with neurodiverse brothers/sisters",
+        "Prevents parental burnout through structured self-care and community peer support"
+      ],
+      "whoIsItFor": [
+        "Parents coping with a recent ASD or developmental diagnosis",
+        "Families facing sibling friction or behavioral challenges at home",
+        "Caregivers seeking confidence in special education advocacy"
+      ],
+      "approach": [
+        "One-on-one and couples counselling sessions with child psychology specialists",
+        "Practical behavior management workshops and crisis de-escalation coaching",
+        "Monthly parent support circles for shared experiences and community"
+      ],
+      "published": true,
+      "order": 5
+    },
+    {
+      "id": "srv-6",
+      "slug": "social-skills-readiness",
+      "title": "Social Skills & School Readiness Groups",
+      "shortDescription": "Structured small-group settings where children practice cooperative play, empathy, sharing, classroom etiquette, and peer friendships.",
+      "fullDescription": "Our small-group programs simulate classroom settings in a low-stress environment. Led by certified special educators and therapists, children practice circle time, listening to group instructions, navigating transitions, understanding non-verbal social cues, and resolving peer conflicts constructively.",
+      "image": "/src/assets/images/speech_therapy_child_1792054965416.jpg",
+      "iconName": "Users",
+      "benefits": [
+        "Teaches cooperative group play, sharing materials, and turn-taking",
+        "Enhances ability to follow group instructions in school environments",
+        "Builds empathy, emotional recognition, and conversational reciprocation",
+        "Eases the transition from individual therapy into inclusive classrooms"
+      ],
+      "whoIsItFor": [
+        "Preschool and elementary children preparing for mainstream school integration",
+        "Children experiencing difficulties making friends or joining group activities"
+      ],
+      "approach": [
+        "Carefully matched peer groups based on developmental readiness and communication styles",
+        "Role-playing, cooperative board games, sensory group art, and musical circles",
+        "Direct social coaching and positive reinforcement during interactive scenarios"
+      ],
+      "published": true,
+      "order": 6
+    }
+  ],
+  "team": [
+    {
+      "id": "tm-1",
+      "name": "Dr. Elena Vance, PhD, BCBA-D",
+      "designation": "Clinical Director & Lead Behavior Analyst",
+      "qualifications": "PhD in Child Clinical Psychology, Board Certified Behavior Analyst - Doctoral",
+      "specialties": [
+        "Applied Behavior Analysis",
+        "Early Autism Intervention",
+        "Functional Assessment"
+      ],
+      "bio": "With over 14 years of clinical experience in pediatric developmental disorders, Dr. Vance has led multidisciplinary teams across renowned children’s hospitals. She is passionate about compassionate, positive-reinforcement ABA protocols that honor child individuality.",
+      "photo": "/src/assets/images/aba_therapy_session_1792054964703.jpg",
+      "order": 1,
+      "email": "elena.vance@turtlebuddycentre.org"
+    },
+    {
+      "id": "tm-2",
+      "name": "Marcus Thorne, M.S., CCC-SLP",
+      "designation": "Head of Speech & Language Pathology",
+      "qualifications": "M.S. in Speech-Language Pathology, ASHA Certificate of Clinical Competence",
+      "specialties": [
+        "Augmentative & Alternative Communication (AAC)",
+        "Childhood Apraxia",
+        "Social Pragmatics"
+      ],
+      "bio": "Marcus specializes in helping minimally verbal children discover expressive communication through multimodal tools. He has guided hundreds of families in implementing high-tech AAC devices and playful phonological therapy.",
+      "photo": "/src/assets/images/speech_therapy_child_1792054965416.jpg",
+      "order": 2,
+      "email": "marcus.thorne@turtlebuddycentre.org"
+    },
+    {
+      "id": "tm-3",
+      "name": "Priya Patel, MS, OTR/L",
+      "designation": "Lead Pediatric Occupational Therapist",
+      "qualifications": "Master of Science in Occupational Therapy, Certified Sensory Integration Specialist (SIPT)",
+      "specialties": [
+        "Sensory Processing Integration",
+        "Fine Motor Coordination",
+        "Self-Regulation"
+      ],
+      "bio": "Priya designs Turtle Buddy’s sensory gym protocols. Her work focuses on helping children with sensory defensiveness develop calming strategies, postural stability, and independence in everyday self-care.",
+      "photo": "/src/assets/images/sensory_occupational_therapy_1792054965310.jpg",
+      "order": 3,
+      "email": "priya.patel@turtlebuddycentre.org"
+    },
+    {
+      "id": "tm-4",
+      "name": "Sarah Jenkins, M.Ed.",
+      "designation": "Special Education Coordinator",
+      "qualifications": "M.Ed. in Special Education, Certified Autism Specialist (CAS)",
+      "specialties": [
+        "Curriculum Adaptation",
+        "School Transition Planning",
+        "Social Skills Groups"
+      ],
+      "bio": "Sarah bridges therapy outcomes with classroom success. She works closely with local schools and educators to build IEPs and individual accommodation plans that allow neurodivergent children to thrive.",
+      "photo": "/src/assets/images/hero_child_therapy_1792054963772.jpg",
+      "order": 4,
+      "email": "sarah.jenkins@turtlebuddycentre.org"
+    },
+    {
+      "id": "tm-5",
+      "name": "Dr. David Aris, PsyD",
+      "designation": "Child Psychologist & Family Counselor",
+      "qualifications": "Doctor of Psychology (PsyD), Licensed Marriage & Family Therapist",
+      "specialties": [
+        "Parent Coaching",
+        "Sibling Support",
+        "Developmental Trauma & Anxiety"
+      ],
+      "bio": "Dr. Aris facilitates our parent guidance seminars and family counselling sessions. He empowers parents with evidence-based behavioral strategies while addressing the emotional wellness of the entire family system.",
+      "photo": "/src/assets/images/aba_therapy_session_1792054964703.jpg",
+      "order": 5,
+      "email": "david.aris@turtlebuddycentre.org"
+    }
+  ],
+  "gallery": [
+    {
+      "id": "gal-1",
+      "title": "Individual ABA Learning Suite",
+      "category": "Therapy Rooms",
+      "imageUrl": "/src/assets/images/aba_therapy_session_1792054964703.jpg",
+      "caption": "One-on-one developmental therapy suite equipped with ergonomic child seating and modular puzzle materials.",
+      "published": true,
+      "createdAt": "2026-02-10"
+    },
+    {
+      "id": "gal-2",
+      "title": "Sensory Integration Gym",
+      "category": "Sensory Gym",
+      "imageUrl": "/src/assets/images/sensory_occupational_therapy_1792054965310.jpg",
+      "caption": "Soft tactile balance courses and suspended movement equipment for pediatric vestibular therapy.",
+      "published": true,
+      "createdAt": "2026-02-14"
+    },
+    {
+      "id": "gal-3",
+      "title": "Interactive Speech & Language Corner",
+      "category": "Speech Studio",
+      "imageUrl": "/src/assets/images/speech_therapy_child_1792054965416.jpg",
+      "caption": "High-engagement speech station featuring mirror feedback, visual cards, and expressive communication tools.",
+      "published": true,
+      "createdAt": "2026-02-18"
+    },
+    {
+      "id": "gal-4",
+      "title": "Sensory Play & Building Area",
+      "category": "Play & Learning",
+      "imageUrl": "/src/assets/images/hero_child_therapy_1792054963772.jpg",
+      "caption": "Bright, welcoming environment where young learners develop spatial reasoning and social play.",
+      "published": true,
+      "createdAt": "2026-03-01"
+    },
+    {
+      "id": "gal-5",
+      "title": "Fine Motor & Writing Station",
+      "category": "Therapy Rooms",
+      "imageUrl": "/src/assets/images/aba_therapy_session_1792054964703.jpg",
+      "caption": "Targeted hand-eye coordination table with adaptive pencils and sensory sorting materials.",
+      "published": true,
+      "createdAt": "2026-03-05"
+    },
+    {
+      "id": "gal-6",
+      "title": "Gross Motor Agility Mats",
+      "category": "Sensory Gym",
+      "imageUrl": "/src/assets/images/sensory_occupational_therapy_1792054965310.jpg",
+      "caption": "High-density safety foam obstacle courses designed to support motor planning and physical confidence.",
+      "published": true,
+      "createdAt": "2026-03-12"
+    }
+  ],
+  "blogs": [
+    {
+      "id": "blog-1",
+      "slug": "early-signs-of-autism-toddlers",
+      "title": "Recognizing Early Signs of Autism: A Guide for Parents",
+      "excerpt": "Understanding subtle developmental differences in eye contact, pointing, and social smiles can open doors to timely, transformative early intervention.",
+      "content": "When it comes to child development, early intervention is one of the most powerful catalysts for lifelong success. Recognizing developmental differences early allows parents and clinicians to introduce supportive therapies when neural pathways are most adaptable.\n\n### Key Milestones to Observe\n1. **Social Communication**: Does your child respond to their name by 12 months? Do they make warm eye contact when smiling or being spoken to?\n2. **Shared Attention**: By 14–16 months, most toddlers point at airplanes, dogs, or toys to show their parents ('look at that!'). A consistent absence of pointing for joint attention is worth evaluating.\n3. **Vocal and Gestural Repertoire**: Babbling, waving goodbye, and shaking their head 'no' are crucial pre-linguistic stepping stones.\n4. **Sensory Preferences**: Notice if your child exhibits extreme reactions to everyday sounds, textures, or bright lighting, or conversely seeks out repetitive rocking or spinning.\n\n### The Value of Early Screening\nA developmental evaluation is not a label—it is an empowering roadmap. At Turtle Buddy, our diagnostic evaluations are playful, gentle, and child-centered, offering families clarity, actionable strategies, and immense peace of mind.",
+      "category": "Early Intervention",
+      "author": "Dr. Elena Vance, PhD, BCBA-D",
+      "authorRole": "Clinical Director",
+      "featuredImage": "/src/assets/images/aba_therapy_session_1792054964703.jpg",
+      "publishedDate": "2026-03-15",
+      "readTime": "4 min read",
+      "published": true
+    },
+    {
+      "id": "blog-2",
+      "slug": "sensory-friendly-home-routines",
+      "title": "Creating a Sensory-Friendly Home: Practical Strategies for Calmer Days",
+      "excerpt": "Simple environmental adjustments like dimmable lighting, cozy decompression nooks, and predictable visual schedules reduce daily sensory overload.",
+      "content": "The sensory world can be intense for children on the autism spectrum or with sensory processing differences. When sights, sounds, and physical textures overwhelm the nervous system, meltdowns are often an involuntary distress signal.\n\n### 1. Build a 'Cozy Corner'\nDedicate a small area of the child’s bedroom or living space as a low-stimulation haven. Stock it with soft weighted blankets, noise-canceling headphones, tactile squishies, and warm, dim fairy lights.\n\n### 2. Establish Visual Timers and Schedules\nTransitions between activities are often stressful. Using picture schedules or visual countdown clocks helps children anticipate what is coming next without verbal pressure.\n\n### 3. Integrate Daily Sensory Diets\nEngage in 'heavy work'—activities that stimulate deep proprioceptive receptors. Pushing a laundry basket, climbing cushions, or doing animal walks helps ground a child’s nervous system before high-focus tasks like homework or bedtime.",
+      "category": "Occupational Therapy",
+      "author": "Priya Patel, MS, OTR/L",
+      "authorRole": "Lead Occupational Therapist",
+      "featuredImage": "/src/assets/images/sensory_occupational_therapy_1792054965310.jpg",
+      "publishedDate": "2026-03-22",
+      "readTime": "5 min read",
+      "published": true
+    },
+    {
+      "id": "blog-3",
+      "slug": "unlocking-verbal-communication-aac",
+      "title": "Unlocking Communication: How AAC Devices Empower Non-Verbal Children",
+      "excerpt": "Debunking the myth that AAC prevents speech development: evidence shows communication boards and speech tablets accelerate language understanding.",
+      "content": "One of the most persistent concerns parents share is: 'If we give our child an iPad or picture board to talk, will they stop trying to speak verbally?' Scientific research shows the exact opposite: Augmentative and Alternative Communication (AAC) reduces communication frustration and actually stimulates vocal speech development.\n\n### How AAC Builds Bridges\n- **Reduces Behavioral Frustration**: When a child can tap a button for 'water' or 'I need a break', the urgent need for screaming or tantrums dissipates.\n- **Pairs Sound with Symbol**: High-tech AAC tools speak the word aloud each time a button is pressed, providing immediate acoustic feedback.\n- **Fosters Genuine Social Reciprocation**: Children gain the agency to initiate conversations, tell jokes, and share feelings with family and classmates.\n\nAt Turtle Buddy, our speech pathology department offers comprehensive AAC trials and ongoing caregiver training to ensure seamless integration between clinic and home.",
+      "category": "Speech & Language",
+      "author": "Marcus Thorne, M.S., CCC-SLP",
+      "authorRole": "Head of Speech Pathology",
+      "featuredImage": "/src/assets/images/speech_therapy_child_1792054965416.jpg",
+      "publishedDate": "2026-03-29",
+      "readTime": "6 min read",
+      "published": true
+    }
+  ],
+  "notices": [
+    {
+      "id": "not-1",
+      "title": "Admissions Open: 2026-2027 Academic Year Early Intervention Programs",
+      "description": "We are accepting enrollment applications for our morning and afternoon comprehensive developmental cohorts. Limited slots are available to maintain our strict 1:1 and 1:2 therapist-to-child ratios.",
+      "date": "2026-04-01",
+      "category": "Admission",
+      "isImportant": true,
+      "published": true,
+      "actionUrl": "/enrol",
+      "actionText": "Apply for Enrolment"
+    },
+    {
+      "id": "not-2",
+      "title": "Complimentary Pediatric Developmental Screening Day",
+      "description": "Join us on Saturday, April 25th for a free 30-minute developmental screening with our licensed speech, occupational, and behavioral therapy specialists. Pre-registration required.",
+      "date": "2026-04-10",
+      "category": "Event",
+      "isImportant": true,
+      "published": true,
+      "actionUrl": "/contact",
+      "actionText": "Reserve Screening Slot"
+    },
+    {
+      "id": "not-3",
+      "title": "Parent Masterclass: De-Escalating Meltdowns with Positive Behavior Tools",
+      "description": "A free live practical workshop for enrolled families and community parents on April 18th at 6:30 PM. Hosted by Clinical Director Dr. Elena Vance.",
+      "date": "2026-04-12",
+      "category": "Workshop",
+      "isImportant": false,
+      "published": true,
+      "actionUrl": "/contact",
+      "actionText": "Register for Workshop"
+    },
+    {
+      "id": "not-4",
+      "title": "Centre Expansion: New Sensory Integration Gym Wing Now Open",
+      "description": "We are thrilled to unveil our new 1,500 sq ft sensory gym wing equipped with therapeutic rock walls, tactile obstacle courses, and vestibular hammocks.",
+      "date": "2026-03-18",
+      "category": "General",
+      "isImportant": false,
+      "published": true,
+      "actionUrl": "/gallery",
+      "actionText": "View Gallery Photos"
+    }
+  ],
+  "testimonials": [
+    {
+      "id": "test-1",
+      "parentName": "Jessica & David Miller",
+      "childDetail": "Parents of Leo (Age 4, ABA & Speech Therapy)",
+      "quote": "When Leo came to Turtle Buddy, he had only three words and was frequently overwhelmed by crowded spaces. In just seven months of warm, play-based therapy, he is speaking in full sentences and greeted his grandma with a huge hug. Turtle Buddy has truly transformed our lives.",
+      "serviceReceived": "ABA Therapy & Speech-Language Pathology",
+      "rating": 5,
+      "published": true
+    },
+    {
+      "id": "test-2",
+      "parentName": "Amina Al-Mansoor",
+      "childDetail": "Mother of Ryan (Age 6, Sensory OT & School Readiness)",
+      "quote": "The occupational therapy team helped Ryan conquer his sensory defensiveness. He now buttons his shirt independently and looks forward to going to kindergarten each morning without tears. The therapists treat our son like family.",
+      "serviceReceived": "Occupational Therapy & Sensory Integration",
+      "rating": 5,
+      "published": true
+    },
+    {
+      "id": "test-3",
+      "parentName": "Christopher Reynolds",
+      "childDetail": "Father of Maya (Age 5, Child Assessment & Social Skills)",
+      "quote": "The diagnostic assessment gave us complete clarity without the clinical intimidation we experienced elsewhere. The team explained every test result clearly and designed a plan that celebrated Maya’s artistic strengths while supporting her social delays.",
+      "serviceReceived": "Diagnostic Assessment & Social Skills",
+      "rating": 5,
+      "published": true
+    }
+  ],
+  "enquiries": [
+    {
+      "parentName": "Test Parent",
+      "phone": "+15551234567",
+      "email": "test@example.com",
+      "childAge": "4",
+      "childName": "",
+      "serviceOfInterest": "ABA Therapy",
+      "preferredDate": "2026-05-01",
+      "message": "Hello Turtle Buddy",
+      "consent": true,
+      "id": "enq-1792056237172",
+      "status": "New",
+      "createdAt": "2026-10-15T09:23:57.172Z",
+      "updatedAt": "2026-10-15T09:23:57.172Z"
+    },
+    {
+      "id": "enq-101",
+      "parentName": "Sarah Jenkins-Cole",
+      "phone": "+1 (555) 789-2144",
+      "email": "sarah.j.cole@example.com",
+      "childAge": "3 years 8 months",
+      "childName": "Oliver",
+      "serviceOfInterest": "ABA Therapy",
+      "preferredDate": "2026-04-20",
+      "message": "Oliver has recently received a diagnosis of ASD level 1. Looking for morning early intervention ABA sessions to support functional speech and reduce frustration.",
+      "consent": true,
+      "status": "New",
+      "adminNotes": "Assigned to intake coordinator. Scheduled phone triage for tomorrow.",
+      "createdAt": "2026-04-12T09:30:00.000Z",
+      "updatedAt": "2026-04-12T09:30:00.000Z"
+    },
+    {
+      "id": "enq-102",
+      "parentName": "Michael Chen",
+      "phone": "+1 (555) 344-9981",
+      "email": "mchen.tech@example.com",
+      "childAge": "5 years",
+      "childName": "Lucas",
+      "serviceOfInterest": "Speech and Language Therapy (SLT)",
+      "preferredDate": "2026-04-22",
+      "message": "Seeking speech therapy consultation for articulation and sentence construction before starting kindergarten this autumn.",
+      "consent": true,
+      "status": "Contacted",
+      "adminNotes": "Spoke with father. Sent intake paperwork.",
+      "createdAt": "2026-04-11T14:15:00.000Z",
+      "updatedAt": "2026-04-12T10:00:00.000Z"
+    },
+    {
+      "id": "enq-103",
+      "parentName": "Rebecca Wright",
+      "phone": "+1 (555) 670-4321",
+      "email": "rebecca.w@example.com",
+      "childAge": "4 years 2 months",
+      "childName": "Emma",
+      "serviceOfInterest": "Occupational Therapy (OT)",
+      "preferredDate": "2026-04-24",
+      "message": "Emma experiences severe distress with loud noises and textured clothing. Inquiring about sensory gym availability.",
+      "consent": true,
+      "status": "Scheduled",
+      "adminNotes": "Sensory evaluation booked with Priya Patel for Friday 10 AM.",
+      "createdAt": "2026-04-09T11:00:00.000Z",
+      "updatedAt": "2026-04-10T16:20:00.000Z"
+    }
+  ],
+  "activities": [
+    {
+      "id": "act-1792056237172-kcw4",
+      "action": "New assessment request received from Test Parent for ABA Therapy",
+      "timestamp": "2026-10-15T09:23:57.172Z",
+      "user": "Public Web"
+    },
+    {
+      "id": "act-1",
+      "action": "Initial Turtle Buddy database populated with clinical programs and theme parameters",
+      "timestamp": "2026-04-15T02:00:00.000Z",
+      "user": "System Administrator"
+    },
+    {
+      "id": "act-2",
+      "action": "Published notice: Admissions Open for 2026-2027 Academic Year",
+      "timestamp": "2026-04-15T02:01:00.000Z",
+      "user": "Dr. Elena Vance"
+    }
+  ],
+  "adminAuth": {
+    "email": "admin@turtlebuddy.com",
+    "passwordHash": "TurtleBuddy2025!"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "name": "Turtle Buddy — Special Education & Therapy Centre",
+  "description": "Comprehensive child development, ABA therapy, Speech & Language Therapy, and Occupational Therapy centre website with custom theme engine and full admin CMS.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

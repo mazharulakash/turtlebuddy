@@ -1,0 +1,67 @@
+@import "tailwindcss";
+
+:root {
+  --tb-primary: #0284c7;
+  --tb-primary-hover: #0369a1;
+  --tb-secondary: #f97316;
+  --tb-secondary-hover: #ea580c;
+  --tb-accent: #10b981;
+  --tb-bg: #f8fafc;
+  --tb-heading: #0f172a;
+  --tb-text: #334155;
+  --tb-btn: #0284c7;
+  --tb-btn-text: #ffffff;
+  --tb-nav-bg: #ffffff;
+  --tb-nav-text: #1e293b;
+  --tb-radius: 16px;
+  --tb-font: "Plus Jakarta Sans", system-ui, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--tb-font);
+  background-color: var(--tb-bg);
+  color: var(--tb-text);
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--tb-heading);
+  letter-spacing: -0.02em;
+}
+
+/* Subtle bounce animation for hero floating card */
+@keyframes bounceSubtle {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-6px);
+  }
+}
+
+.animate-bounce-subtle {
+  animation: bounceSubtle 4s ease-in-out infinite;
+}
+
+/* Custom scrollbars */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f5f9;
+}
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
